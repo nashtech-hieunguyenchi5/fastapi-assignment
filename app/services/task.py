@@ -2,7 +2,7 @@ from typing import List
 from uuid import UUID
 import uuid
 from sqlalchemy import select
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import Session
 from entities.task import Task
 from entities.user import User
 from models.task import SearchTaskModel, TaskModel, TaskViewModel
